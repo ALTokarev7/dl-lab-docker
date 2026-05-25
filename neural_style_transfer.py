@@ -86,8 +86,8 @@ def neural_style_transfer(config):
 
     # magic numbers in general are a big no no - some things in this code are left like this by design to avoid clutter
     num_of_iterations = {
-        "lbfgs": 1000,
-        "adam": 3000,
+        "lbfgs": 100,
+        "adam": 30,
     }
 
     #
